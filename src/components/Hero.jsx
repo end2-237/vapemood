@@ -32,7 +32,7 @@ const Hero = () => {
         
         <div className="relative flex justify-center order-1 md:order-2">
           <img 
-            src="https://www.elfbar.com/assets/images/product/raya-d3/raya-d3-kv-m.png" 
+            src="https://images.unsplash.com/photo-1594177914682-d408d96e458b?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" 
             onError={(e) => {
               e.target.src = 'https://www.vapehongkong.com/wp-content/uploads/2024/04/ELFBAR-RAYA-D3-25000-Puffs-Disposable-Vape.jpg';
             }}

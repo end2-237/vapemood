@@ -1,0 +1,192 @@
+export const categories = ["Tout", "Nouveautés", "Best Seller", "Écran LED", "Fruité", "Glacé", "Gourmand", "Menthol"];
+
+export const products = [
+  // --- 1 à 10 : Les Stars (Déjà présents + Ajouts) ---
+  { 
+    id: 1, 
+    name: "Elfbar Raya D3 Pro", 
+    brand: "Elfbar", 
+    price: 18000, 
+    puffs: 30000, 
+    flavor: "Grape Bubblegum", 
+    image: "https://images.unsplash.com/photo-1545095088-26a59e3f2717?q=80&w=687&auto=format&fit=crop", 
+    category: "Nouveautés", 
+    color: "text-purple-500" 
+  },
+  { 
+    id: 2, 
+    name: "RandM Tornado 9000", 
+    brand: "RandM", 
+    price: 12500, 
+    puffs: 9000, 
+    flavor: "Strawberry Watermelon", 
+    image: "https://images.unsplash.com/photo-1626246825787-64e6691107fc?q=80&w=764&auto=format&fit=crop", 
+    category: "Best Seller", 
+    color: "text-red-500" 
+  },
+  { 
+    id: 3, 
+    name: "Geek Bar Pulse X", 
+    brand: "Geek Bar", 
+    price: 16000, 
+    puffs: 15000, 
+    flavor: "Miami Mint", 
+    image: "https://images.unsplash.com/photo-1715613815884-0fa892746e47?q=80&w=687&auto=format&fit=crop", 
+    category: "Écran LED", 
+    color: "text-green-400" 
+  },
+  { 
+    id: 4, 
+    name: "Waka SoPro PA10000", 
+    brand: "Waka", 
+    price: 14000, 
+    puffs: 10000, 
+    flavor: "Mango Peach", 
+    image: "https://images.unsplash.com/photo-1654259533620-b9b64479b9fd?q=80&w=687&auto=format&fit=crop", 
+    category: "Fruité", 
+    color: "text-orange-500" 
+  },
+  { 
+    id: 5, 
+    name: "Lost Mary MO5000", 
+    brand: "Lost Mary", 
+    price: 10000, 
+    puffs: 5000, 
+    flavor: "Blue Razz Ice", 
+    image: "https://images.unsplash.com/photo-1715613813309-590403d923f9?q=80&w=687&auto=format&fit=crop", 
+    category: "Glacé", 
+    color: "text-blue-400" 
+  },
+  { 
+    id: 6, 
+    name: "Elfbar Raya D3 (Black)", 
+    brand: "Elfbar", 
+    price: 18000, 
+    puffs: 30000, 
+    flavor: "Black Ice", 
+    image: "https://images.unsplash.com/photo-1654259533620-b9b64479b9fd?q=80&w=687&auto=format&fit=crop", 
+    category: "Premium", 
+    color: "text-gray-400" 
+  },
+  { 
+    id: 7, 
+    name: "Off-Stamp SW9000", 
+    brand: "Lost Mary", 
+    price: 13500, 
+    puffs: 9000, 
+    flavor: "Dragon Strawnana", 
+    image: "https://images.unsplash.com/photo-1650559235182-b713945f588c?q=80&w=880&auto=format&fit=crop", 
+    category: "Nouveautés", 
+    color: "text-pink-500" 
+  },
+  { 
+    id: 8, 
+    name: "Puff 15k Digital", 
+    brand: "Generic", 
+    price: 11000, 
+    puffs: 15000, 
+    flavor: "Lush Ice", 
+    image: "https://images.unsplash.com/photo-1650559235358-f562157e6427?q=80&w=580&auto=format&fit=crop", 
+    category: "Best Seller", 
+    color: "text-red-400" 
+  },
+  { 
+    id: 9, 
+    name: "Vozol Gear 10000", 
+    brand: "Vozol", 
+    price: 13000, 
+    puffs: 10000, 
+    flavor: "Cedar Berries", 
+    image: "https://images.unsplash.com/photo-1605218457298-5026e63273e6?q=80&w=800&auto=format&fit=crop", 
+    category: "Fruité", 
+    color: "text-purple-400" 
+  },
+  { 
+    id: 10, 
+    name: "Oxbar Magic Maze Pro", 
+    brand: "Oxbar", 
+    price: 14500, 
+    puffs: 10000, 
+    flavor: "Sakura Grape", 
+    image: "https://images.unsplash.com/photo-1534135968536-b5dd92644275?q=80&w=800&auto=format&fit=crop", 
+    category: "Écran LED", 
+    color: "text-purple-600" 
+  },
+
+  // --- 11 à 25 : RandM Tornado Collection ---
+  { id: 11, name: "RandM Tornado 7000", brand: "RandM", price: 10000, puffs: 7000, flavor: "Lemon Lime", image: "https://images.unsplash.com/photo-1513558161293-cdaf765ed2fd?q=80&w=800", category: "Best Seller", color: "text-lime-400" },
+  { id: 12, name: "RandM Tornado 9000", brand: "RandM", price: 12500, puffs: 9000, flavor: "Peachy Mango Pineapple", image: "https://images.unsplash.com/photo-1596463059283-da2d2ecc37a2?q=80&w=800", category: "Fruité", color: "text-orange-400" },
+  { id: 13, name: "RandM Tornado 9000", brand: "RandM", price: 12500, puffs: 9000, flavor: "Black Dragon Ice", image: "https://images.unsplash.com/photo-1550989460-0adf9ea622e2?q=80&w=800", category: "Glacé", color: "text-gray-300" },
+  { id: 14, name: "RandM Tornado 15000", brand: "RandM", price: 15000, puffs: 15000, flavor: "Blueberry On Ice", image: "https://images.unsplash.com/photo-1491146377040-38822830f065?q=80&w=800", category: "Best Seller", color: "text-blue-500" },
+  { id: 15, name: "RandM Tornado 7000", brand: "RandM", price: 10000, puffs: 7000, flavor: "Cool Mint", image: "https://images.unsplash.com/photo-1598155523122-38423bb4d693?q=80&w=800", category: "Menthol", color: "text-green-300" },
+  { id: 16, name: "RandM Tornado 9000", brand: "RandM", price: 12500, puffs: 9000, flavor: "Gummy Bear", image: "https://images.unsplash.com/photo-1582053433976-259f9504387d?q=80&w=800", category: "Gourmand", color: "text-pink-400" },
+  { id: 17, name: "RandM Tornado 9000", brand: "RandM", price: 12500, puffs: 9000, flavor: "Aloe Grape", image: "https://images.unsplash.com/photo-1563297003-81b4d3269661?q=80&w=800", category: "Fruité", color: "text-purple-400" },
+  { id: 18, name: "RandM Supbliss 10k", brand: "RandM", price: 13000, puffs: 10000, flavor: "Cola Ice", image: "https://images.unsplash.com/photo-1622483767028-3f66f32aef97?q=80&w=800", category: "Glacé", color: "text-red-800" },
+  { id: 19, name: "RandM Digital 12000", brand: "RandM", price: 14000, puffs: 12000, flavor: "Cherry", image: "https://images.unsplash.com/photo-1528821128474-27f963b0a4e1?q=80&w=800", category: "Écran LED", color: "text-red-600" },
+  { id: 20, name: "RandM Tornado 9000", brand: "RandM", price: 12500, puffs: 9000, flavor: "Watermelon Brazz Ice", image: "https://images.unsplash.com/photo-1560155016-bd4879ae8f21?q=80&w=800", category: "Glacé", color: "text-pink-500" },
+
+  // --- 26 à 40 : Geek Bar & Écrans Connectés ---
+  { id: 21, name: "Geek Bar Pulse X", brand: "Geek Bar", price: 16000, puffs: 15000, flavor: "Fcuking Fab", image: "https://images.unsplash.com/photo-1550684848-fac1c5b4e853?q=80&w=800", category: "Écran LED", color: "text-orange-400" },
+  { id: 22, name: "Geek Bar Pulse X", brand: "Geek Bar", price: 16000, puffs: 15000, flavor: "Strawberry Mango", image: "https://images.unsplash.com/photo-1505252585461-04db1eb84625?q=80&w=800", category: "Nouveautés", color: "text-yellow-500" },
+  { id: 23, name: "Geek Bar Meloso Max", brand: "Geek Bar", price: 13000, puffs: 9000, flavor: "Ginger Ale", image: "https://images.unsplash.com/photo-1513558161293-cdaf765ed2fd?q=80&w=800", category: "Gourmand", color: "text-yellow-300" },
+  { id: 24, name: "Geek Bar Skyview", brand: "Geek Bar", price: 19000, puffs: 25000, flavor: "Triple Berry", image: "https://images.unsplash.com/photo-1490818387583-1baba5e638af?q=80&w=800", category: "Nouveautés", color: "text-purple-700" },
+  { id: 25, name: "Geek Bar Pulse", brand: "Geek Bar", price: 15000, puffs: 15000, flavor: "Mexico Mango", image: "https://images.unsplash.com/photo-1591073113125-e46713c829ed?q=80&w=800", category: "Fruité", color: "text-orange-500" },
+  { id: 26, name: "Geek Bar Pulse", brand: "Geek Bar", price: 15000, puffs: 15000, flavor: "Blow Pop", image: "https://images.unsplash.com/photo-1575224300306-1b8da36134ec?q=80&w=800", category: "Gourmand", color: "text-pink-300" },
+  { id: 27, name: "Geek Bar Digic", brand: "Geek Bar", price: 14000, puffs: 12000, flavor: "Grape Lemon", image: "https://images.unsplash.com/photo-1599409898236-c95616e2540b?q=80&w=800", category: "Écran LED", color: "text-purple-400" },
+  { id: 28, name: "Geek Bar Pulse X", brand: "Geek Bar", price: 16000, puffs: 15000, flavor: "Sour Apple Ice", image: "https://images.unsplash.com/photo-1568702846914-96b305d2aaeb?q=80&w=800", category: "Glacé", color: "text-green-500" },
+  { id: 29, name: "Geek Bar Pulse", brand: "Geek Bar", price: 15000, puffs: 15000, flavor: "Pink Lemonade", image: "https://images.unsplash.com/photo-1513558161293-cdaf765ed2fd?q=80&w=800", category: "Fruité", color: "text-pink-400" },
+  { id: 30, name: "Raz CA6000", brand: "Geek Bar", price: 11000, puffs: 6000, flavor: "Alaskan Mint", image: "https://images.unsplash.com/photo-1598155523122-38423bb4d693?q=80&w=800", category: "Menthol", color: "text-blue-200" },
+
+  // --- 41 à 55 : Elfbar & Lost Mary Étendu ---
+  { id: 31, name: "Elfbar BC5000", brand: "Elfbar", price: 9000, puffs: 5000, flavor: "Sakura Grape", image: "https://images.unsplash.com/photo-1596463059283-da2d2ecc37a2?q=80&w=800", category: "Best Seller", color: "text-purple-400" },
+  { id: 32, name: "Elfbar BC5000", brand: "Elfbar", price: 9000, puffs: 5000, flavor: "Watermelon Ice", image: "https://images.unsplash.com/photo-1587049352846-4a222e784d38?q=80&w=800", category: "Glacé", color: "text-red-500" },
+  { id: 33, name: "Elfbar Pi9000", brand: "Elfbar", price: 12000, puffs: 9000, flavor: "Strawberry Ice Cream", image: "https://images.unsplash.com/photo-1563805042-7684c019e1cb?q=80&w=800", category: "Gourmand", color: "text-pink-200" },
+  { id: 34, name: "Elfbar Pi9000", brand: "Elfbar", price: 12000, puffs: 9000, flavor: "Elfbull Ice", image: "https://images.unsplash.com/photo-1513558161293-cdaf765ed2fd?q=80&w=800", category: "Glacé", color: "text-yellow-400" },
+  { id: 35, name: "Elfbar Funky TI7000", brand: "Elfbar", price: 11500, puffs: 7000, flavor: "Peach Mango Watermelon", image: "https://images.unsplash.com/photo-1601004890684-d8cbf643f5f2?q=80&w=800", category: "Fruité", color: "text-orange-400" },
+  { id: 36, name: "Lost Mary OS5000", brand: "Lost Mary", price: 10000, puffs: 5000, flavor: "Mary Dream", image: "https://images.unsplash.com/photo-1550989460-0adf9ea622e2?q=80&w=800", category: "Best Seller", color: "text-yellow-200" },
+  { id: 37, name: "Lost Mary BM6000", brand: "Lost Mary", price: 11000, puffs: 6000, flavor: "Pineapple Coconut Ice", image: "https://images.unsplash.com/photo-1546833999-b9f581602b70?q=80&w=800", category: "Glacé", color: "text-yellow-100" },
+  { id: 38, name: "Lost Mary MT15000", brand: "Lost Mary", price: 16500, puffs: 15000, flavor: "Nana Coconut", image: "https://images.unsplash.com/photo-1528825871115-3581a5387919?q=80&w=800", category: "Nouveautés", color: "text-white" },
+  { id: 39, name: "Lost Mary MT15000 Turbo", brand: "Lost Mary", price: 17000, puffs: 15000, flavor: "Dr. Cherry", image: "https://images.unsplash.com/photo-1528821128474-27f963b0a4e1?q=80&w=800", category: "Écran LED", color: "text-red-700" },
+  { id: 40, name: "Elfbar Raya D2", brand: "Elfbar", price: 15000, puffs: 20000, flavor: "Lemon Mint", image: "https://images.unsplash.com/photo-1510662145379-13537db782dc?q=80&w=800", category: "Menthol", color: "text-lime-300" },
+
+  // --- 56 à 65 : Waka & Crystal (Luxe) ---
+  { id: 41, name: "Waka SoPro PA10000", brand: "Waka", price: 14000, puffs: 10000, flavor: "Strawberry Kiwi", image: "https://images.unsplash.com/photo-1521666838840-752495d03387?q=80&w=800", category: "Fruité", color: "text-green-400" },
+  { id: 42, name: "Waka SoPro PA10000", brand: "Waka", price: 14000, puffs: 10000, flavor: "Raspberry Watermelon", image: "https://images.unsplash.com/photo-1587049352846-4a222e784d38?q=80&w=800", category: "Fruité", color: "text-red-400" },
+  { id: 43, name: "Waka Smash 6000", brand: "Waka", price: 10500, puffs: 6000, flavor: "Fresh Mint", image: "https://images.unsplash.com/photo-1628556270448-4d4e6a4802c6?q=80&w=800", category: "Menthol", color: "text-green-600" },
+  { id: 44, name: "Crystal Pro Max", brand: "Crystal", price: 12000, puffs: 10000, flavor: "Fizzy Cherry", image: "https://images.unsplash.com/photo-1528821128474-27f963b0a4e1?q=80&w=800", category: "Best Seller", color: "text-red-500" },
+  { id: 45, name: "Crystal Pro Max", brand: "Crystal", price: 12000, puffs: 10000, flavor: "Blue Razz Lemonade", image: "https://images.unsplash.com/photo-1513558161293-cdaf765ed2fd?q=80&w=800", category: "Glacé", color: "text-blue-400" },
+  { id: 46, name: "Crystal Prime 7000", brand: "Crystal", price: 11000, puffs: 7000, flavor: "Skittles", image: "https://images.unsplash.com/photo-1582053433976-259f9504387d?q=80&w=800", category: "Gourmand", color: "text-purple-300" },
+  { id: 47, name: "Ske Crystal Bar", brand: "Crystal", price: 6000, puffs: 600, flavor: "Tiger Blood", image: "https://images.unsplash.com/photo-1601004890684-d8cbf643f5f2?q=80&w=800", category: "Fruité", color: "text-orange-500" },
+  { id: 48, name: "Instabar 5000", brand: "Instabar", price: 8500, puffs: 5000, flavor: "Yummy Bear", image: "https://images.unsplash.com/photo-1575224300306-1b8da36134ec?q=80&w=800", category: "Gourmand", color: "text-red-300" },
+  { id: 49, name: "Waka SoPro DM8000i", brand: "Waka", price: 13500, puffs: 8000, flavor: "Lychee Burst", image: "https://images.unsplash.com/photo-1596463059283-da2d2ecc37a2?q=80&w=800", category: "Écran LED", color: "text-pink-100" },
+  { id: 50, name: "Mosmo Storm X", brand: "Mosmo", price: 16000, puffs: 15000, flavor: "Double Apple", image: "https://images.unsplash.com/photo-1568702846914-96b305d2aaeb?q=80&w=800", category: "Nouveautés", color: "text-green-500" },
+
+  // --- 66 à 75 : Les Exotiques & Nouveaux ---
+  { id: 51, name: "Vozol Star 9000", brand: "Vozol", price: 12000, puffs: 9000, flavor: "Blueberry Storm", image: "https://images.unsplash.com/photo-1491146377040-38822830f065?q=80&w=800", category: "Glacé", color: "text-blue-600" },
+  { id: 52, name: "Vozol Vista 20000", brand: "Vozol", price: 17500, puffs: 20000, flavor: "Lava Fire", image: "https://images.unsplash.com/photo-1490818387583-1baba5e638af?q=80&w=800", category: "Nouveautés", color: "text-red-600" },
+  { id: 53, name: "Oxbar Magic Maze", brand: "Oxbar", price: 14000, puffs: 10000, flavor: "Jewel Mint", image: "https://images.unsplash.com/photo-1628556270448-4d4e6a4802c6?q=80&w=800", category: "Menthol", color: "text-teal-400" },
+  { id: 54, name: "Funky Republic Ti7000", brand: "Funky", price: 11500, puffs: 7000, flavor: "California Cherry", image: "https://images.unsplash.com/photo-1528821128474-27f963b0a4e1?q=80&w=800", category: "Fruité", color: "text-red-500" },
+  { id: 55, name: "Funky Republic Ti7000", brand: "Funky", price: 11500, puffs: 7000, flavor: "Passion Fruit Kiwi Lime", image: "https://images.unsplash.com/photo-1513558161293-cdaf765ed2fd?q=80&w=800", category: "Fruité", color: "text-yellow-500" },
+  { id: 56, name: "RabBeats RC10000", brand: "RabBeats", price: 13000, puffs: 10000, flavor: "Crazy Berry Cherry", image: "https://images.unsplash.com/photo-1490818387583-1baba5e638af?q=80&w=800", category: "Écran LED", color: "text-purple-600" },
+  { id: 57, name: "Pyne Pod Boost", brand: "Pyne Pod", price: 13500, puffs: 8500, flavor: "Colombian Coffee", image: "https://images.unsplash.com/photo-1509042239860-f550ce710b93?q=80&w=800", category: "Gourmand", color: "text-brown-500" },
+  { id: 58, name: "Spaceman 10k Pro", brand: "Spaceman", price: 13000, puffs: 10000, flavor: "Root Beer", image: "https://images.unsplash.com/photo-1550989460-0adf9ea622e2?q=80&w=800", category: "Gourmand", color: "text-orange-900" },
+  { id: 59, name: "Raz TN9000", brand: "Raz", price: 12500, puffs: 9000, flavor: "Polar Ice", image: "https://images.unsplash.com/photo-1560155016-bd4879ae8f21?q=80&w=800", category: "Glacé", color: "text-white" },
+  { id: 60, name: "Viho Turbo 10000", brand: "Viho", price: 13000, puffs: 10000, flavor: "Tobacco", image: "https://images.unsplash.com/photo-1527661591475-527312dd65f5?q=80&w=800", category: "Menthol", color: "text-yellow-800" },
+  
+  // --- 61 à 75 : Budget & Compact ---
+  { id: 61, name: "Elfbar 600V2", brand: "Elfbar", price: 5000, puffs: 600, flavor: "Watermelon", image: "https://images.unsplash.com/photo-1587049352846-4a222e784d38?q=80&w=800", category: "Fruité", color: "text-red-400" },
+  { id: 62, name: "Elfbar 600V2", brand: "Elfbar", price: 5000, puffs: 600, flavor: "Blueberry", image: "https://images.unsplash.com/photo-1491146377040-38822830f065?q=80&w=800", category: "Fruité", color: "text-blue-500" },
+  { id: 63, name: "Ske Crystal 600", brand: "Crystal", price: 5500, puffs: 600, flavor: "Menthol", image: "https://images.unsplash.com/photo-1628556270448-4d4e6a4802c6?q=80&w=800", category: "Menthol", color: "text-green-500" },
+  { id: 64, name: "Lost Mary BM600", brand: "Lost Mary", price: 5500, puffs: 600, flavor: "Double Apple", image: "https://images.unsplash.com/photo-1568702846914-96b305d2aaeb?q=80&w=800", category: "Fruité", color: "text-green-400" },
+  { id: 65, name: "Puffmi Dura 9000", brand: "Puffmi", price: 12000, puffs: 9000, flavor: "Quad Berry", image: "https://images.unsplash.com/photo-1490818387583-1baba5e638af?q=80&w=800", category: "Fruité", color: "text-purple-600" },
+  { id: 66, name: "Vapengin Mercury", brand: "Vapengin", price: 6000, puffs: 600, flavor: "Vanilla Cream", image: "https://images.unsplash.com/photo-1563805042-7684c019e1cb?q=80&w=800", category: "Gourmand", color: "text-yellow-100" },
+  { id: 67, name: "Friobar MX 10k", brand: "Friobar", price: 13000, puffs: 10000, flavor: "Aloe Grape", image: "https://images.unsplash.com/photo-1596463059283-da2d2ecc37a2?q=80&w=800", category: "Fruité", color: "text-purple-400" },
+  { id: 68, name: "Iget Bar 3500", brand: "Iget", price: 8000, puffs: 3500, flavor: "Blackberry Ice", image: "https://images.unsplash.com/photo-1626246825787-64e6691107fc?q=80&w=800", category: "Glacé", color: "text-purple-800" },
+  { id: 69, name: "Hqd Cuvie Mars", brand: "Hqd", price: 11000, puffs: 8000, flavor: "Purple Rain", image: "https://images.unsplash.com/photo-1550989460-0adf9ea622e2?q=80&w=800", category: "Best Seller", color: "text-purple-500" },
+  { id: 70, name: "Hqd Cuvie Bar", brand: "Hqd", price: 10000, puffs: 7000, flavor: "Cactus Kiwi", image: "https://images.unsplash.com/photo-1510662145379-13537db782dc?q=80&w=800", category: "Fruité", color: "text-green-300" },
+  { id: 71, name: "Elfbar Lowit 5500", brand: "Elfbar", price: 9500, puffs: 5500, flavor: "Minty O's", image: "https://images.unsplash.com/photo-1598155523122-38423bb4d693?q=80&w=800", category: "Menthol", color: "text-teal-300" },
+  { id: 72, name: "RandM Sunax 21000", brand: "RandM", price: 18000, puffs: 21000, flavor: "Red Apple Ice", image: "https://images.unsplash.com/photo-1568702846914-96b305d2aaeb?q=80&w=800", category: "Nouveautés", color: "text-red-500" },
+  { id: 73, name: "North 12000", brand: "North", price: 14000, puffs: 12000, flavor: "Blue Raspberry", image: "https://images.unsplash.com/photo-1513558161293-cdaf765ed2fd?q=80&w=800", category: "Écran LED", color: "text-blue-500" },
+  { id: 74, name: "Smok Priv Bar", brand: "Smok", price: 15000, puffs: 15000, flavor: "Alaskan Mint", image: "https://images.unsplash.com/photo-1560155016-bd4879ae8f21?q=80&w=800", category: "Glacé", color: "text-cyan-200" },
+  { id: 75, name: "Geek Bar Pulse X", brand: "Geek Bar", price: 16000, puffs: 15000, flavor: "Banana Ice", image: "https://images.unsplash.com/photo-1528825871115-3581a5387919?q=80&w=800", category: "Glacé", color: "text-yellow-400" },
+];

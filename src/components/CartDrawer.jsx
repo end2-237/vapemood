@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react';
 import CartItem from './CartItem';
+import { WHATSAPP_NUMBER } from '../utils/helpers';
 
 /**
  * Fonctions utilitaires intégrées pour éviter les erreurs d'importation
@@ -7,7 +8,7 @@ import CartItem from './CartItem';
 const formatPrice = (price) => {
   return new Intl.NumberFormat('fr-FR', {
     style: 'currency',
-    currency: 'EUR',
+    currency: 'XOF',
   }).format(price);
 };
 
@@ -19,7 +20,7 @@ const generateWhatsAppMessage = (cart) => {
 };
 
 const openWhatsApp = (message) => {
-  window.open(`https://wa.me/237600000000?text=${message}`, '_blank'); // Remplacez par votre numéro
+  window.open(`https://wa.me/${WHATSAPP_NUMBER}?text=${message}`, '_blank'); // Remplacez par votre numéro
 };
 
 const CartDrawer = ({ isOpen, onClose, cart, onRemoveItem }) => {
